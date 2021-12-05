@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><h3>Login</h3></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="row header">
+    <h5>Welcome Back!</h5>
+    <h3>Please Login<br/> to continue</h3>
+  </div>
+
+  <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+    <div class="row">
+      <div class="text-center col-md-8 mb-3 mt-4">
+        <input formControlName="username" class="text-center p-3 inputField" type="text" placeholder="Username"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center col-md-8 mb-3">
+        <input formControlName="password" class="text-center p-3 inputField" type="password" placeholder="Password"/>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="text-center mt-5">
+        <input class="text-center loginBtn btn btn-secondary" type="submit" name="submit" value="Login"/>
+      </div>
+    </div>
+
+  </form>
+
+</ion-content>

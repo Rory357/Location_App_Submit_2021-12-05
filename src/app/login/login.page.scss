@@ -1,0 +1,40 @@
+ion-content{
+    --background: #0e387a;
+
+    .header{
+        padding: 20px;
+        color: #e6e6e6;
+        h4{
+            font-size: 18pt;
+            font-weight: bolder;
+            
+        }
+        h5{
+            font-size: 14pt;
+        }
+    }
+
+    .form{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 30px;
+        width: 300px;
+        
+    }
+
+    .inputField{
+        --background: #9fafca;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        color: #000;
+        
+    }
+
+    .loginBtn{
+        width: 120px;
+        background-color: #79a1e6;
+        padding: 20px 20px 20px 20px;
+        border-radius: 30px;
+        font-weight: bold;
+    }
+}
